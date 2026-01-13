@@ -17,7 +17,15 @@
     "city": "Munich",
     "postal_code": "HG352",
     "country": "Germany"
-  }
+  },
+  "last_shoppings": [
+    {
+      "$oid": "6964ccdd475559ffe18ba060"
+    },
+    {
+      "$oid": "6964ccdd475559ffe18ba650"
+    }
+  ]
 },
 {
   "_id": {
@@ -36,5 +44,8 @@
     "city": "Zhalef",
     "postal_code": "8542",
     "country": "Russia"
-  }
+  },
+  "last_shoppings": [
+    ""
+  ]
 }]
