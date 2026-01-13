@@ -14,7 +14,8 @@
       "total": {
         "$numberDecimal": "16"
       },
-      "price": 8
+      "name": "Pizza Margarita",
+      "unit_price": 8
     }
   ],
   "date_time": {
