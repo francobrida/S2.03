@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6964c49d475559ffe18ba047"
+  },
+  "brand": "Rayban",
+  "prescription_L": 0.58,
+  "prescription_R": 0.42,
+  "type_frame": "plastic",
+  "color_frame": "red",
+  "color_lens_L": "natural",
+  "color_lens_R": "grey",
+  "price": 157.5,
+  "supplier": {
+    "$oid": "696384e85ccdedc3961c45b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "6964c4de475559ffe18ba049"
+  },
+  "brand": "EyesTrue",
+  "prescription_L": 0.52,
+  "prescription_R": 0.08,
+  "type_frame": "metal",
+  "color_frame": "grey",
+  "color_lens_L": "grey",
+  "color_lens_R": "yellow",
+  "price": 190,
+  "supplier": {
+    "$oid": "6963848e5ccdedc3961c45b4"
+  },
+  "bought_by": [
+    {
+      "$oid": "6964c1a8475559ffe18ba037"
+    },
+    {
+      "$oid": "6964c210475559ffe18ba039"
+    }
+  ]
+}]

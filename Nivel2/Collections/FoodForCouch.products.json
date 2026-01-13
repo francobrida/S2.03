@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6964e307475559ffe18ba0c0"
+  },
+  "type": "pizza",
+  "name": "Pizza Margarita",
+  "description": "basic pizza with cheese",
+  "image": "localhost.com",
+  "price": 8,
+  "category": "Thin Dought"
+},
+{
+  "_id": {
+    "$oid": "6964e361475559ffe18ba0c2"
+  },
+  "type": "hamburguer",
+  "name": "Cheese Hamburguer",
+  "description": "burguer with cheese",
+  "image": "localhost.com",
+  "price": 12
+},
+{
+  "_id": {
+    "$oid": "6964e3a0475559ffe18ba0c4"
+  },
+  "type": "drink",
+  "name": "Water",
+  "description": "just plain water",
+  "image": "localhost.com",
+  "price": 4
+}]

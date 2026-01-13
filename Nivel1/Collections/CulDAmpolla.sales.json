@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6964ccdd475559ffe18ba060"
+  },
+  "date": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "employee_id": {
+    "$oid": "6964c34b475559ffe18ba03e"
+  },
+  "client_id": {
+    "$oid": "6964c1a8475559ffe18ba037"
+  },
+  "glasses": [
+    {
+      "id": {
+        "$oid": "6964c49d475559ffe18ba047"
+      },
+      "quantity": 2
+    }
+  ],
+  "quantity_total": 2
+}]

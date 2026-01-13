@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "6964dfbf475559ffe18ba0a7"
+  },
+  "name": "Abel",
+  "surname": "Rewt",
+  "address": "Valencia 123 1B",
+  "postal_code": "8271",
+  "town": "Madrid",
+  "province": "Madrid",
+  "telephone": "351717481",
+  "registration_date": {
+    "$date": "2024-05-12T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6964e900475559ffe18ba0d9"
+  },
+  "client_id": {
+    "$oid": "6964e93d475559ffe18ba0da"
+  },
+  "products": [
+    {
+      "product_id": {
+        "$oid": "6964e307475559ffe18ba0c0"
+      },
+      "quantity": 2,
+      "total": {
+        "$numberDecimal": "16"
+      },
+      "price": 8
+    }
+  ],
+  "date_time": {
+    "$date": "2026-11-09T19:00:00.000Z"
+  },
+  "type": "delivery",
+  "total": 16,
+  "info_extra": "no cheese",
+  "address": {
+    "street": "Dos de maig",
+    "number": 45,
+    "floor": "5D",
+    "contact_number": "+4927236712",
+    "note": "doorbell not working, clap twice"
+  },
+  "delivery_id": {
+    "$oid": "6964e17c475559ffe18ba0ad"
+  },
+  "delivery_datetime": {
+    "$date": "2026-11-09T20:00:00.000Z"
+  },
+  "status": "delivered",
+  "quantity_total": 2,
+  "store_id": {
+    "$oid": "6964e221475559ffe18ba0b6"
+  }
+}]
