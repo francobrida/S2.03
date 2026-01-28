@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "6964c1a8475559ffe18ba037"
+  },
+  "name": "Pepe",
+  "telephone": "6473847626",
+  "email": "pepe@hotmail.com",
+  "registration_date": {
+    "$date": "2018-10-06T00:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "6964c210475559ffe18ba039"
+  },
+  "address": {
+    "street": "Independencia",
+    "number": 243,
+    "city": "Munich",
+    "postal_code": "HG352",
+    "country": "Germany"
+  }
+},
+{
+  "_id": {
+    "$oid": "6964c210475559ffe18ba039"
+  },
+  "name": "Roman schweps",
+  "telephone": "146547626",
+  "email": "romy@gotmail.com",
+  "registration_date": {
+    "$date": "2015-07-02T00:00:00.000Z"
+  },
+  "recommended_by": null,
+  "address": {
+    "street": "lalala",
+    "number": 72,
+    "city": "Zhalef",
+    "postal_code": "8542",
+    "country": "Russia"
+  }
+},
+{
+  "_id": {
+    "$oid": "6978dfaccc753745bc0b0ea5"
+  },
+  "name": "Lucía Fernández",
+  "telephone": "+34 611 234 567",
+  "email": "lucia.fernandez@gmail.com",
+  "registration_date": {
+    "$date": "2023-06-15T00:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "6964c210475559ffe18ba039"
+  },
+  "address": {
+    "street": "Calle Balmes",
+    "number": 50,
+    "city": "Barcelona",
+    "postal_code": "08007",
+    "country": "Spain"
+  }
+},
+{
+  "_id": {
+    "$oid": "6978dfaccc753745bc0b0eb6"
+  },
+  "name": "Diego López",
+  "telephone": "+34 622 987 654",
+  "email": "diego.lopez@gmail.com",
+  "registration_date": {
+    "$date": "2024-01-10T00:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "6978dfaccc753745bc0b0ea5"
+  },
+  "address": {
+    "street": "Carrer de Sants",
+    "number": 90,
+    "city": "Barcelona",
+    "postal_code": "08028",
+    "country": "Spain"
+  }
+},
+{
+  "_id": {
+    "$oid": "6978dfaccc753745bc0b0ea9"
+  },
+  "name": "Carlos Méndez",
+  "telephone": "+34 699 876 543",
+  "email": "carlos.mendez@hotmail.com",
+  "registration_date": {
+    "$date": "2024-03-20T00:00:00.000Z"
+  },
+  "recommended_by": null,
+  "address": {
+    "street": "Calle Mayor",
+    "number": 21,
+    "city": "Barcelona",
+    "postal_code": "08001",
+    "country": "Spain"
+  }
+}]

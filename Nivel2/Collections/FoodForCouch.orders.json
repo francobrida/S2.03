@@ -2,9 +2,6 @@
   "_id": {
     "$oid": "6964e900475559ffe18ba0d9"
   },
-  "client_id": {
-    "$oid": "6964e93d475559ffe18ba0da"
-  },
   "products": [
     {
       "product_id": {
@@ -29,17 +26,109 @@
     "number": 45,
     "floor": "5D",
     "contact_number": "+4927236712",
-    "note": "doorbell not working, clap twice"
-  },
-  "delivery_id": {
-    "$oid": "6964e17c475559ffe18ba0ad"
-  },
-  "delivery_datetime": {
-    "$date": "2026-11-09T20:00:00.000Z"
+    "note": "doorbell not working, clap nine times"
   },
   "status": "delivered",
   "quantity_total": 2,
   "store_id": {
     "$oid": "6964e221475559ffe18ba0b6"
+  },
+  "delivery": {
+    "employee": {
+      "_id": {
+        "$oid": "6979e4cb11c4bdd32d60ce97"
+      },
+      "name": "Laura",
+      "surname": "Gomez",
+      "role": "delivery"
+    },
+    "delivered_at": {
+      "$date": "2026-11-09T20:00:00.000Z"
+    }
+  },
+  "client": {
+    "_id": {
+      "$oid": "6964dfbf475559ffe18ba0a7"
+    },
+    "name": "Abel",
+    "surname": "Rewt",
+    "address": "435436",
+    "telephone": "351717481",
+    "postal_code": "8271",
+    "town": "Madrid",
+    "province": "Madrid",
+    "registration_date": "2024-05-12T00:00:00.000+00:00"
   }
+},
+{
+  "_id": {
+    "$oid": "6979def011c4bdd32d60ce87"
+  },
+  "date_time": {
+    "$date": "2026-01-27T19:15:00.000Z"
+  },
+  "type": "delivery",
+  "status": "paid",
+  "client": {
+    "_id": {
+      "$oid": "6979f59711c4bdd32d60ced7"
+    },
+    "name": "Ana",
+    "surname": "Martínez",
+    "telephone": "612345678",
+    "address": {
+      "street": "Right Street",
+      "number": 42,
+      "floor": 3,
+      "postal_code": "08001",
+      "city": "Barcelona",
+      "province": "Barcelona"
+    }
+  },
+  "store": {
+    "_id": {
+      "$oid": "65467def011c4bdd32d60c47"
+    },
+    "address": "Carrer Major 12",
+    "postal_code": "08002",
+    "city": "Barcelona",
+    "province": "Barcelona"
+  },
+  "products": [
+    {
+      "product_id": {
+        "$oid": "6964e307475559ffe18ba0c0"
+      },
+      "name": "Pizza Margarita",
+      "category": "Pizza",
+      "price": 8,
+      "quantity": 2,
+      "total": 16
+    },
+    {
+      "product_id": {
+        "$oid": "6964e3a0475559ffe18ba0c4"
+      },
+      "name": "Water",
+      "category": "Drink",
+      "price": 3,
+      "quantity": 2,
+      "total": 6
+    }
+  ],
+  "total_price": 22,
+  "delivery": {
+    "employee": {
+      "_id": {
+        "$oid": "6964e17c475559ffe18ba0ad"
+      },
+      "name": "Leo",
+      "surname": "Ferran",
+      "role": "delivery"
+    },
+    "delivered_at": {
+      "$date": "2026-01-27T19:45:22.000Z"
+    }
+  },
+  "note": "sorry bro, no elevator"
 }]

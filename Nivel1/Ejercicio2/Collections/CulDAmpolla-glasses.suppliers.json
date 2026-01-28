@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6963848e5ccdedc3961c45b4"
+  },
+  "name": "Optics 4Real",
+  "address": {
+    "street": "Lalala Street",
+    "number": 10,
+    "floor": 2,
+    "door": "B",
+    "city": "Barcelona",
+    "postal_code": "08001",
+    "country": "Spain"
+  },
+  "phone": "934567890",
+  "fax": "934567891",
+  "NIF": "B12345678"
+},
+{
+  "_id": {
+    "$oid": "696384e85ccdedc3961c45b6"
+  },
+  "name": "Vision Supplies Europe",
+  "address": {
+    "street": "C'mon Street",
+    "number": 14,
+    "floor": 7,
+    "door": "A",
+    "city": "Malaga",
+    "postal_code": "08021",
+    "country": "Spain"
+  },
+  "phone": "+34 934 112 233",
+  "fax": "+34 934 112 234",
+  "NIF": "B91234567"
+}]

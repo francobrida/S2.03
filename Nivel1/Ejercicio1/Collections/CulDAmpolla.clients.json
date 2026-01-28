@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "6964c1a8475559ffe18ba037"
+  },
+  "name": "Pepe",
+  "telephone": "6473847626",
+  "email": "pepe@hotmail.com",
+  "registration_date": {
+    "$date": "2018-10-06T00:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "6964c210475559ffe18ba039"
+  },
+  "address": {
+    "street": "Independencia",
+    "number": 243,
+    "city": "Munich",
+    "postal_code": "HG352",
+    "country": "Germany"
+  },
+  "sales": [
+    {
+      "date": {
+        "$date": "2025-12-06T23:00:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "6964c325475559ffe18ba03c"
+      },
+      "glasses": {
+        "glasses_id": {
+          "$oid": "6964c49d475559ffe18ba047"
+        },
+        "quantity": 2,
+        "price_at_sale": 127,
+        "brand": "Rayban",
+        "frame_type": "metallic",
+        "glass_color_l": "",
+        "glass_color_r": "",
+        "graduation_l": 2.3,
+        "graduation_r": 2
+      }
+    },
+    {
+      "date": {
+        "$date": "2026-01-15T17:30:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "6964c325475559ffe18ba03c"
+      },
+      "glasses": {
+        "glasses_id": {
+          "$oid": "6964c4de475559ffe18ba049"
+        },
+        "quantity": 1,
+        "price_at_sale": 150,
+        "brand": "Oakley",
+        "frame_type": "flaoting",
+        "glass_color_l": "blue",
+        "glass_color_r": "blue",
+        "graduation_l": -1.25,
+        "graduation_r": -1
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6964c210475559ffe18ba039"
+  },
+  "name": "Roman schweps",
+  "telephone": "146547626",
+  "email": "romy@gotmail.com",
+  "registration_date": {
+    "$date": "2015-07-02T00:00:00.000Z"
+  },
+  "recommended_by": null,
+  "address": {
+    "street": "lalala",
+    "number": 72,
+    "city": "Zhalef",
+    "postal_code": "8542",
+    "country": "Russia"
+  },
+  "sales": [
+    {
+      "date": {
+        "$date": "2025-12-06T23:00:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "6964c325475559ffe18ba03c"
+      },
+      "glasses": {
+        "glasses_id": {
+          "$oid": "6964c4de475559ffe18ba049"
+        },
+        "quantity": 2,
+        "price_at_sale": 188.5,
+        "brand": "EyesTrue",
+        "frame_type": "plastic",
+        "glass_color_l": "blue",
+        "glass_color_r": "red",
+        "graduation_l": 1.9,
+        "graduation_r": 0
+      }
+    }
+  ]
+}]

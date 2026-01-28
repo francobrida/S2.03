@@ -12,4 +12,19 @@
   "registration_date": {
     "$date": "2024-05-12T00:00:00.000Z"
   }
+},
+{
+  "_id": {
+    "$oid": "6979f59711c4bdd32d60ced7"
+  },
+  "name": "Ana",
+  "surname": "Martinez",
+  "address": "Right Street 42 3",
+  "postal_code": "8271",
+  "town": "Barcelona",
+  "province": "Barcelona",
+  "telephone": "612345678",
+  "registration_date": {
+    "$date": "2024-08-21T00:00:00.000Z"
+  }
 }]

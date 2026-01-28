@@ -10,7 +10,7 @@
   "color_lens_L": "natural",
   "color_lens_R": "grey",
   "price": 157.5,
-  "supplier": {
+  "supplier_id": {
     "$oid": "696384e85ccdedc3961c45b6"
   }
 },
@@ -26,15 +26,7 @@
   "color_lens_L": "grey",
   "color_lens_R": "yellow",
   "price": 190,
-  "supplier": {
+  "supplier_id": {
     "$oid": "6963848e5ccdedc3961c45b4"
-  },
-  "bought_by": [
-    {
-      "$oid": "6964c1a8475559ffe18ba037"
-    },
-    {
-      "$oid": "6964c210475559ffe18ba039"
-    }
-  ]
+  }
 }]
